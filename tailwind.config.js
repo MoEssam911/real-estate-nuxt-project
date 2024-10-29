@@ -33,6 +33,10 @@ export default {
     extend: {
       colors: {
         // Light theme colors
+        grey10:"#1A1A1A",
+        grey15:"#262626",
+        grey8:"#141414",
+        purple60:"#703BF7",
         // Dark theme colors
       },
     },
