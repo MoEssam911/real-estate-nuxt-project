@@ -3,7 +3,7 @@
     <!-- Left Side: Title, Text, and Buttons -->
     <div class="flex flex-col justify-center w-full md:w-1/2 p-6 sm:mt-20 md:p-10  order-2 md:order-1">
       <h1 class="text-3xl md:text-6xl font-bold mb-4 text-white">Discover Your Dream Property with Estatein</h1>
-      <p class="text-md md:text-lg mb-6 text-grey60"">Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
+      <p class="text-md md:text-lg mb-6 text-grey60">Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
       
       <div v-if="showButtons" class="flex space-x-4 mb-6">
         <button class="btn border border-grey15">Read More</button>
@@ -34,7 +34,7 @@
 
     <!-- Right Side: Image -->
     <div class="w-full md:w-1/2 z-0 order-1 md:order-2">
-      <img :src="image" alt="Banner Image" class="object-cover h-full w-full" />
+      <!-- <img :src="image" alt="Banner Image" class="object-cover h-full w-full" /> -->
     </div>
   </div>
 </template>

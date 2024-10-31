@@ -2,7 +2,9 @@
   <header class="bg-grey10">
     <div class="container py-5 w-full">
       <div class="flex items-center justify-between">
-        <img class="text-red" src="../../assets/images/logo/Logo.svg" />
+        <nuxt-link to="/">
+          <img class="text-red" src="~/assets/images/logo/Logo.svg" />
+        </nuxt-link>
 
         <div class="flex items-center gap-8">
           <nuxt-link
@@ -44,3 +46,7 @@
     </div>
   </header>
 </template>
+
+<script setup>
+
+</script>

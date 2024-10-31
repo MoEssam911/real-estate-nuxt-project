@@ -8,11 +8,7 @@
           text="Discover amazing properties and get the best deals!"
           :showButtons="true"
         />
-
       </div>
     </main>
   </div>
 </template>
-<script>
-export default {};
-</script>
