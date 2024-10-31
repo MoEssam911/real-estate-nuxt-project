@@ -1,8 +1,8 @@
 <template>
-    <div class="layout">
-      <Header />
-      <slot class="content">
-        <nuxt />
-      </slot>
-    </div>
-  </template>
+  <div class="">
+    <Header />
+    <slot class="content">
+      <nuxt />
+    </slot>
+  </div>
+</template>

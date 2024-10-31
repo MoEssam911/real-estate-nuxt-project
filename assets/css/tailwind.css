@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .active-link {
-    @apply bg-black rounded-[10px] py-3.5 px-6 border border-grey15;
+  @apply bg-black rounded-[10px] py-3.5 px-6 border border-grey15;
+}
+
+.btn {
+  @apply text-white text-lg px-6 py-4 rounded-[10px] transition-all duration-300 hover:opacity-80;
 }

@@ -14,20 +14,24 @@ export default {
     screens: {
       sm: "640px",
       md: "768px",
-      lg: "1440px",
-      xl: "1920px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
     },
 
     container: {
       center: true,
-
       padding: {
-        DEFAULT: "1rem",
-        sm: "2rem",
-        md: "4rem",
-        lg: "80px",
-        xl: "162px",
+        sm: "1.5rem",
+        md: "3rem",
+        lg: "4.5rem",
+        xl: "6rem",
+        "2xl": "8rem",
       },
+    },
+
+    corePlugins: {
+      container: false,
     },
 
     extend: {
@@ -57,7 +61,6 @@ export default {
         grey40: "#666666",
         grey50: "#808080",
         grey60: "#999999",
-
       },
     },
   },
