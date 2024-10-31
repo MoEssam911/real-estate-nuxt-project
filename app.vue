@@ -1,7 +1,7 @@
 <!-- pages/index.vue -->
 <template>
   <Header />
-  <NuxtPage />
+  <NuxtPage class="bg-grey8 text-white"/>
 </template>
 
 <script setup>
