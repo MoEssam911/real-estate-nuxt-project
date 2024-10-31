@@ -6,7 +6,7 @@
       <p class="text-md md:text-lg mb-6">{{ text }}</p>
       
       <div v-if="showButtons" class="flex space-x-4 mb-6">
-        <button class="border-2 border-grey15   hover:bg-purple60">Read More</button>
+        <button class="border-2 border-grey15 hover:bg-purple60">Read More</button>
         <button class="bg-purple60 px-4 py-2 rounded hover:bg-transparent hover:border-2 hover:border-grey15 ">Browse Properties</button>
       </div>
       
@@ -62,6 +62,3 @@ export default {
 };
 </script>
 
-<style scoped>
-/* You can add additional styles here if needed */
-</style>

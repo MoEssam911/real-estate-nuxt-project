@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.active-link {
+    @apply bg-black rounded-[10px] py-3.5 px-6 border border-grey15;
+}

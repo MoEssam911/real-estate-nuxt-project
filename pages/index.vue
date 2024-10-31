@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="min-h-screen dark:bg-black dark:text-white">
+    <main class="min-h-screen ">
       <div>
         <Banner
         title="Welcome to Our Website"
