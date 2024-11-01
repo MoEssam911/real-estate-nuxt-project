@@ -1,52 +1,56 @@
 <template>
-  <header class="bg-grey10">
-    <div class="container py-5 w-full">
-      <div class="flex items-center justify-between">
-        <nuxt-link to="/">
-          <img class="text-red" src="~/assets/images/logo/Logo.svg" />
-        </nuxt-link>
+  <div class="p-5 bg-grey10">
+    <div class="flex items-center justify-between lg:justify-around">
+      <!-- Logo -->
+      <img class="w-20 h-20" src="../../assets/images/logo/Logo.svg" />
 
-        <div class="flex items-center gap-8">
-          <nuxt-link
-            to="/"
-            class="text-white text-lg hover:text-gray-300"
-            :class="{ 'active-link': $route.path === '/' }"
-          >
-            Home
-          </nuxt-link>
-          <nuxt-link
-            to="/about"
-            class="text-white text-lg hover:text-gray-300"
-            :class="{ 'active-link': $route.path === '/about' }"
-          >
-            About Us
-          </nuxt-link>
-          <nuxt-link
-            to="/properties"
-            class="text-white text-lg hover:text-gray-300"
-            :class="{ 'active-link': $route.path === '/properties' }"
-          >
-            Properties
-          </nuxt-link>
-          <nuxt-link
-            to="/services"
-            class="text-white text-lg hover:text-gray-300"
-            :class="{ 'active-link': $route.path === '/services' }"
-          >
-            Services
-          </nuxt-link>
-        </div>
+      <!-- Desktop Navigation Links -->
+      <div class="hidden lg:flex space-x-14">
+        <h2 class="text-white">Home</h2>
+        <h2 class="text-white">About Us</h2>
+        <h2 class="text-white">Properties</h2>
+        <h2 class="text-white">Services</h2>
+      </div>
 
-        <nuxt-link
-          to="/contact"
-          class="active-link text-white hover:text-gray-300"
-          >Contact Us</nuxt-link
-        >
+      <!-- Mobile Menu Button -->
+      <button @click="isOpen = !isOpen" class="lg:hidden text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+
+      <!-- Contact and Theme Switcher (visible on larger screens) -->
+      <div class="hidden lg:flex space-x-3 items-center">
+        <button class="text-white bg-black border-2 border-grey15 px-4 py-2">
+          Contact Us
+        </button>
       </div>
     </div>
-  </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div v-if="isOpen" class="lg:hidden mt-4  space-y-4">
+      <h2 class="text-white px-4">Home</h2>
+      <h2 class="text-white px-4">About Us</h2>
+      <h2 class="text-white px-4">Properties</h2>
+      <h2 class="text-white px-4">Services</h2>
+      <button class="text-white bg-black border-2 border-grey15 px-4 py-2">
+        Contact Us
+      </button>
+      <ThemeSwitcher />
+    </div>
+  </div>
 </template>
 
-<script setup>
-
+<script>
+export default {
+  data() {
+    return {
+      isOpen: false, // Toggle for mobile menu
+    };
+  },
+};
 </script>
+
+<style scoped>
+/* Custom Styles */
+</style>
