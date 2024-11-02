@@ -36,7 +36,6 @@
       <button class="text-white bg-black border-2 border-grey15 px-4 py-2">
         Contact Us
       </button>
-      <ThemeSwitcher />
     </div>
   </div>
 </template>
