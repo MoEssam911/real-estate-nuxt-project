@@ -1,0 +1,94 @@
+{
+  "properties": [
+    {
+      "title": "Seaside Serenity Villa",
+      "description": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood",
+      "image": "/properties/prop1.png",
+      "bedroom": 4,
+      "bathroom": 3,
+      "propertyType": "Villa",
+      "price": 550000
+    },
+    {
+      "title": "Mountain View Retreat",
+      "description": "A cozy 3-bedroom, 2-bathroom cabin with breathtaking mountain views",
+      "image": "/properties/prop2.png",
+      "bedroom": 3,
+      "bathroom": 2,
+      "propertyType": "Cabin",
+      "price": 420000
+    },
+    {
+      "title": "Urban Chic Condo",
+      "description": "A modern 2-bedroom, 2-bathroom condo in the heart of the city",
+      "image": "/properties/prop3.png",
+      "bedroom": 2,
+      "bathroom": 2,
+      "propertyType": "Condo",
+      "price": 380000
+    },
+    {
+      "title": "Lakeside Bungalow",
+      "description": "A charming 3-bedroom, 2-bathroom bungalow by the lake",
+      "image": "/properties/prop3.png",
+      "bedroom": 3,
+      "bathroom": 2,
+      "propertyType": "Bungalow",
+      "price": 450000
+    },
+    {
+      "title": "Downtown Loft",
+      "description": "A spacious 1-bedroom, 1-bathroom loft with industrial-style interiors",
+      "image": "/properties/prop3.png",
+      "bedroom": 1,
+      "bathroom": 1,
+      "propertyType": "Loft",
+      "price": 320000
+    },
+    {
+      "title": "Country Estate",
+      "description": "A luxurious 5-bedroom, 4-bathroom estate with vast gardens and privacy",
+      "image": "/properties/prop1.png",
+      "bedroom": 5,
+      "bathroom": 4,
+      "propertyType": "Estate",
+      "price": 850000
+    },
+    {
+      "title": "Beachfront Cottage",
+      "description": "A quaint 2-bedroom, 1-bathroom cottage steps away from the beach",
+      "image": "/properties/prop2.png",
+      "bedroom": 2,
+      "bathroom": 1,
+      "propertyType": "Cottage",
+      "price": 370000
+    },
+    {
+      "title": "Suburban Family Home",
+      "description": "A comfortable 4-bedroom, 3-bathroom family home with a large backyard",
+      "image": "/properties/prop3.png",
+      "bedroom": 4,
+      "bathroom": 3,
+      "propertyType": "House",
+      "price": 530000
+    },
+    {
+      "title": "Luxury Penthouse",
+      "description": "An elegant 3-bedroom, 3-bathroom penthouse with panoramic city views",
+      "image": "/properties/prop1.png",
+      "bedroom": 3,
+      "bathroom": 3,
+      "propertyType": "Penthouse",
+      "price": 1200000
+    },
+    {
+      "title": "Countryside Farmhouse",
+      "description": "A rustic 4-bedroom, 3-bathroom farmhouse on sprawling farmland",
+      "image": "/properties/prop3.png",
+      "bedroom": 4,
+      "bathroom": 3,
+      "propertyType": "Farmhouse",
+      "price": 600000
+    }
+  ]
+}

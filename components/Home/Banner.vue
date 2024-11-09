@@ -34,7 +34,7 @@
 
     <!-- Right Side: Image -->
     <div class="w-full md:w-1/2 z-0 order-1 md:order-2">
-      <!-- <img :src="image" alt="Banner Image" class="object-cover h-full w-full" /> -->
+      <img :src="image" alt="Banner Image" class="object-cover h-full w-full" />
     </div>
   </div>
 </template>
