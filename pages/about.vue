@@ -1,5 +1,5 @@
 <template>
-  <div>abouuuut</div>
+  <div>About MPMPMPMPMPM</div>
 </template>
 
 <script>
